@@ -1,0 +1,158 @@
+.first-color {
+    background: #222831;
+}
+
+.second-color {
+    background: #393e46;
+}
+
+.third-color {
+    background: #0092ca;
+}
+
+.fourth-color {
+    background: #eeeeee;
+}
+
+body {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+#top-bar {
+    background-color: #222831;
+    width: 100%;
+    min-height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#top-bar h1 {
+    color: #eeeeee;
+}
+
+.top-bar-child {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #666;
+}
+
+.logo {
+    width: 30px;
+}
+
+.insta-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.github-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.github-info a {
+    padding: 0px !important;
+    display: block;
+    line-height: 5px;
+}
+
+#main {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#user-input {
+    width: auto;
+}
+
+#user-input h1 {
+    text-align: center;
+}
+
+.user-input-form {
+    border: #393e46 solid 2px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.user-input-form button {
+    color: #222831;
+    background-color: transparent;
+    border: 1px solid #222831;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.user-input-form button:hover {
+    color: #eee;
+    background-color: #222831;
+}
+
+.post-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#display-area {
+    width: 65%;
+}
+
+#display-area h1 {
+    text-align: center;
+}
+
+.tasks-display {
+    background-color: #393e46;
+    color: #eee;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 30px;
+}
+
+.tasks-display-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border-bottom: #666 solid 1px;
+}
+
+.tasks-display-child img {
+    width: 25px;
+}
+
+@media only screen and (max-width: 960px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #user-input {
+        width: auto;
+        margin: auto;
+    }
+
+    #display-area {
+        width: 100%;
+    }
+
+    #top-bar {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <section id="top-bar">
+            <div class="insta-info top-bar-child">
+                <img
+                    src="/images/instagram2.png"
+                    alt="Insta logo"
+                    class="logo"
+                />
+                <h3>
+                    <a
+                        style="text-decoration: none; color: #666"
+                        href="https://www.instagram.com/frontendpanda/"
+                        >@frontendpanda</a
+                    >
+                </h3>
+            </div>
+            <h1 class="top-bar-child">To Do List</h1>
+            <div class="github-info top-bar-child">
+                <img src="/images/github.png" alt="Github logo" class="logo" />
+                <a
+                    href="https://github.com/FrontendPanda"
+                    class="top-bar-child"
+                    style="text-decoration: none; color: #666"
+                    ><h3>Github</h3></a
+                >
+            </div>
+        </section>
+        <section id="main">
+            <div id="user-input">
+                <h1>Create Post</h1>
+                <div class="user-input-form">
+                    <div class="post-name">
+                        <h3>Task Name</h3>
+                        <input type="text" id="post-name-input" />
+                    </div>
+                    <div class="post-task">
+                        <h3>Task Description</h3>
+                        <textarea
+                            type="text"
+                            cols="30"
+                            rows="2"
+                            id="post-task-input"
+                        ></textarea>
+                    </div>
+                    <button id="submit-button">Submit</button>
+                </div>
+            </div>
+
+            <div id="display-area">
+                <h1>Tasks</h1>
+                <div class="tasks-display" id="tasks-display-area">
+                    <!-- <div class="tasks-display-child">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <img
+                            src="/images/delete.png"
+                            alt=""
+                            class="delete-button"
+                        />
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
